@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-29T18:35:56 EDT" name="Default suite" finished-at="2023-09-29T18:36:05 EDT" duration-ms="8949">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Fish_TestRunner.Fish_TestRunner@6f53b8a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-29T18:35:56 EDT" name="Default test" finished-at="2023-09-29T18:36:05 EDT" duration-ms="8949">
+      <class name="Fish_TestRunner.Fish_TestRunner">
+        <test-method is-config="true" signature="fiStartURL()[pri:0, instance:Fish_TestRunner.Fish_TestRunner@6f53b8a]" started-at="2023-09-29T18:35:56 EDT" name="fiStartURL" finished-at="2023-09-29T18:35:58 EDT" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fiStartURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Fish_TestRunner.Fish_TestRunner@6f53b8a]" started-at="2023-09-29T18:35:58 EDT" name="setUpClass" finished-at="2023-09-29T18:35:58 EDT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Fish_TestRunner.Fish_TestRunner@6f53b8a]" started-at="2023-09-29T18:35:58 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-09-29T18:36:04 EDT" duration-ms="6026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is a feature for search item functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Fish_TestRunner.Fish_TestRunner@6f53b8a]" started-at="2023-09-29T18:36:04 EDT" name="tearDownClass" finished-at="2023-09-29T18:36:04 EDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="fiCloseURL()[pri:0, instance:Fish_TestRunner.Fish_TestRunner@6f53b8a]" started-at="2023-09-29T18:36:04 EDT" name="fiCloseURL" finished-at="2023-09-29T18:36:05 EDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fiCloseURL -->
+      </class> <!-- Fish_TestRunner.Fish_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

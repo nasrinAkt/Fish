@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user in about us page page",
+        "description": "",
+        "id": "this-is-a-feature-for-search-item-functionality;verify-user-in-about-us-page-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 731141500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open \u003c\"URL\"\u003e sc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Fish_Search.open_sc(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134293700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on about us link",
+            "match": {
+              "location": "Fish_Search.click_on_about_us_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5105556500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify user in about us page",
+            "match": {
+              "location": "Fish_Search.verify_user_in_about_us_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for search item functionality",
+    "description": "",
+    "id": "this-is-a-feature-for-search-item-functionality",
+    "keyword": "Feature",
+    "uri": "Fish_Search.feature"
+  }
+]
